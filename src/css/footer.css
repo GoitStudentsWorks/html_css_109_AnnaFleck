@@ -1,3 +1,7 @@
+.footer-container{
+    padding-bottom: 20px;
+}
+
 .footer-wrap {
     background-color: #0c0c0c;
     border-radius: 30px;
@@ -15,7 +19,6 @@
 }
 
 .logo {
-    font-family: "Gilroy", sans-serif;
     font-weight: 500;
     font-size: 16px;
     letter-spacing: -0.02em;
@@ -37,7 +40,7 @@
 
 
 .link-footer {
-    font-family: "Gilroy", sans-serif;
+    
     display: block;
     padding: 8px;
     border-radius: 10px;
@@ -56,7 +59,6 @@
 
 .footer-paragraf {
     order: 2;
-    font-family: "Gilroy", sans-serif;
     font-weight: 600;
     font-size: 20px;
     line-height: 1.2;
@@ -68,7 +70,6 @@
 }
 
 .address-link {
-    font-family: "Gilroy", sans-serif;
     font-weight: 500;
     font-size: 12px;
     line-height: 1.33;
@@ -104,7 +105,6 @@
 .footer-nav-item {}
 
 .footer-nav-link {
-    font-family: "Gilroy", sans-serif;
     font-weight: 500;
     font-size: 12px;
     line-height: 1.33;
@@ -113,7 +113,6 @@
 }
 
 .footer-main-paragraf {
-    font-family: "Gilroy", sans-serif;
     font-weight: 500;
     font-size: 12px;
     line-height: 1.33;
@@ -129,7 +128,6 @@
 }
 
 .footer-rights {
-    font-family: "Gilroy", sans-serif;
     font-weight: 500;
     font-size: 10px;
     line-height: 1.4;
@@ -138,7 +136,10 @@
 }
 
 @media screen and (min-width:768px) {
-    
+    .footer-container {
+        padding-bottom: 32px;
+    }
+
     .footer-wrap {
         padding: 40px 40px 28px 40px;
     }
