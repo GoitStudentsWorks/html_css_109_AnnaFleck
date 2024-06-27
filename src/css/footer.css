@@ -64,6 +64,7 @@
     text-align: center;
     color: #fbfbfb;
     max-width: 279px;
+    align-self: center;
 }
 
 .address-link {
