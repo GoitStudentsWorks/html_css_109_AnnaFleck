@@ -1,0 +1,116 @@
+@media screen and (max-width: 374px),
+screen and (min-width: 375px) {
+    .hero {
+        padding: 72px 0;
+    }
+
+    .hero-container {
+        color: #ffffff;
+    }
+
+    .hero-headline {
+        font-family: "Gilroy", sans-serif;
+        font-weight: 600;
+        font-size: 40px;
+        line-height: 0.95;
+        letter-spacing: -0.02em;
+        color: #0c0c0c;
+    }
+
+    .hero-headline-span {
+        color: #3350e9;
+    }
+
+    .hero-paragraph {
+        font-family: "Gilroy", sans-serif;
+        font-weight: 500;
+        font-size: 14px;
+        line-height: 1.28571;
+        letter-spacing: -0.02em;
+        color: rgba(12, 12, 12, 0.7);
+        margin-top: 20px;
+    }
+
+    .hero-scroll {
+        display: flex;
+        align-items: flex-end;
+        justify-content: flex-start;
+        flex-direction: row;
+        gap: 155px;
+    }
+
+    .hero-icons {
+        display: flex;
+        align-items: flex-end;
+        justify-content: left;
+        flex-direction: row;
+        gap: unset;
+        margin-top: 20px;
+    }
+
+    .hero-icons-element1 {
+        position: relative;
+        right: 8px;
+    }
+
+    .hero-icons-element2 {
+        position: relative;
+        right: 16px;
+    }
+
+
+    .hero-scroll-anchor {
+        font-family: "Gilroy", sans-serif;
+        font-weight: 500;
+        font-size: 14px;
+        line-height: 1.28571;
+        letter-spacing: -0.02em;
+        text-decoration: underline;
+        text-decoration-skip-ink: none;
+        color: #0c0c0c;
+    }
+
+    .hero-image {
+        border-radius: 30px;
+        width: 335px;
+        height: 366px;
+        margin-top: 28px;
+    }
+}
+
+@media screen and (min-width: 768px) {
+    .hero-headline-and-paragraph {
+        display: flex;
+        align-items: flex-start;
+        justify-content: flex-start;
+        flex-direction: column;
+        gap: 20px;
+        margin-right: 50%;
+    }
+
+    .hero-headline {
+        font-size: 70px;
+    }
+
+    .hero-paragraph {
+        font-size: 16px;
+    }
+
+    .hero-scroll {
+        display: flex;
+        align-items: flex-end;
+        justify-content: flex-start;
+        flex-direction: column;
+        gap: 180px;
+    }
+
+    .hero-image {
+        border-radius: 50px;
+        width: 704px;
+        height: 520px;
+    }
+}
+
+@media screen and (min-width: 1280px) {
+    
+}
