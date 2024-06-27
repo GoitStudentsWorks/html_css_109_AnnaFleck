@@ -1,0 +1,165 @@
+
+/* Mobile */
+.container {
+    width: 375px;
+    margin: 0 auto;
+
+}
+
+.container-catalog {
+    display: flex;
+    flex-direction: column;
+    margin: 0 20px;
+}
+
+.catalog-list{
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;    
+}
+
+.catalog-title{
+    font-weight: 600;
+    font-size: 32px;
+    line-height: 1;
+    letter-spacing: -0.02em;
+    color: #0c0c0c;
+    text-align: left;
+    margin-bottom: 24px;
+}
+
+
+.catalog-item {
+    border: 1px solid rgba(12, 12, 12, 0.05);
+    border-radius: 30px;
+    padding: 24px 28px;
+    width: 335px;
+    background-color: #f3f3f3; 
+}
+
+.watch-item-container{
+    width: 279px;
+    height: 262px;
+    padding: 18px 35px;
+    margin-bottom: 10px;
+}
+
+.watch-image{
+    width: 208px;
+    height: 226px;
+    object-fit: contain;
+   
+}
+
+.item-container {
+    display: flex;
+    flex-direction: column;
+    gap: 8px;
+   
+   
+}
+
+.catalog-item-text{
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 1.25;
+    letter-spacing: -0.02em;
+    color: #0c0c0c;
+}
+
+.item-price{
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 1.28571;
+    letter-spacing: -0.02em;
+    color: rgba(12, 12, 12, 0.5);
+    
+}
+
+.catalog-button-container{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 375px;
+}
+.catalog-button{
+font-weight: 500;
+font-size: 14px;
+line-height: 1.28571;
+text-align: center;
+color: #fbfbfb;
+border-radius: 16px;
+border: none;
+cursor: pointer;
+width: 160px;
+height: 48px;
+background: #3350e9;
+margin-top:40px;
+
+}
+.catalog-button:hover {
+    background-color: #1f3cd4;
+}
+
+@media screen and (min-width: 768px){
+    .container {
+        width: 704px;
+    }
+    .container-catalog{
+        margin: 0 32px;
+    }
+   
+    .catalog-list{
+        flex-direction: row;
+        gap: 32px 16px;
+    }
+   
+    
+    .catalog-item{
+        width: 344px;
+    height: 414px;
+        padding: 24px 32px 20px 32px;
+    }
+
+    .catalog-item-text{
+        font-weight: 500;
+font-size: 20px;
+    }
+
+.watch-item-container{
+    width: 280px;
+height: 312px;
+    padding: 10px 6px; 
+    margin-bottom: 10px;
+}
+.watch-image{
+    width: 268px;
+    height: 292px;
+
+
+}
+
+
+}
+
+    .catalog-button-container{
+        display: none;
+    }
+
+
+@media screen and (min-width: 1280px){
+        .container-catalog{
+        padding: 0px 65px;
+        width: 1280px;
+        height: 944px;
+        }
+.catalog-list{
+width: 1150px;
+height: 860px;
+}
+
+
+
+
+
+}
