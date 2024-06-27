@@ -138,11 +138,7 @@
 }
 
 @media screen and (min-width:768px) {
-    .container {
-        width: 768px;
-        padding: 0 32px 32px 32px;
-    }
-
+    
     .footer-wrap {
         padding: 40px 40px 28px 40px;
     }
