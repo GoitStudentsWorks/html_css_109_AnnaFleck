@@ -1,18 +1,18 @@
 
 /* Mobile */
-.container {
-    width: 375px;
-    margin: 0 auto;
 
-}
 
 .container-catalog {
+    width: 335px;
+    margin: 0 auto;
     display: flex;
     flex-direction: column;
     margin: 0 20px;
 }
 
 .catalog-list{
+    
+
     display: flex;
     flex-wrap: wrap;
     gap: 20px;    
@@ -55,6 +55,7 @@
     display: flex;
     flex-direction: column;
     gap: 8px;
+    overflow: hidden;
    
    
 }
@@ -65,6 +66,11 @@
     line-height: 1.25;
     letter-spacing: -0.02em;
     color: #0c0c0c;
+    display: inline-block;
+    width: 279px;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+    overflow: hidden;
 }
 
 .item-price{
@@ -102,36 +108,41 @@ margin-top:40px;
 }
 
 @media screen and (min-width: 768px){
-    .container {
-        width: 704px;
-    }
-    .container-catalog{
-        margin: 0 32px;
+
+
+.container-catalog{
+    width: 704px;
+margin: 0 32px;
+
+ 
     }
    
-    .catalog-list{
-        flex-direction: row;
-        gap: 32px 16px;
+.catalog-list{
+flex-direction: row;
+gap: 32px 16px;
+width: 704px;
+
     }
    
     
-    .catalog-item{
-        width: 344px;
-    height: 414px;
-        padding: 24px 32px 20px 32px;
+.catalog-item{
+width: 344px;
+height: 414px;
+padding: 24px 32px 20px 32px;
     }
 
-    .catalog-item-text{
-        font-weight: 500;
+.catalog-item-text{
 font-size: 20px;
+width: 280px;
     }
 
 .watch-item-container{
-    width: 280px;
+width: 280px;
 height: 312px;
-    padding: 10px 6px; 
-    margin-bottom: 10px;
+padding: 10px 6px; 
+margin-bottom: 10px;
 }
+
 .watch-image{
     width: 268px;
     height: 292px;
@@ -140,26 +151,49 @@ height: 312px;
 }
 
 
-}
+
 
     .catalog-button-container{
         display: none;
     }
-
+}
 
 @media screen and (min-width: 1280px){
-        .container-catalog{
-        padding: 0px 65px;
-        width: 1280px;
-        height: 944px;
-        }
+.container-catalog{
+padding: 0px 65px;
+width: 1280px;
+height: 944px;
+}
 .catalog-list{
 width: 1150px;
 height: 860px;
+gap: 32px 23px;
+}
+.catalog-item{
+    width: 368px;
+height: 414px;
+}
+.catalog-item-text{
+    font-size: 20px;
+    width: 304px;
+ 
+}
+
+
+.watch-image{
+width: 292px;
+height: 292px;
+}
+.watch-item-container{
+width: 304px;
+height: 312px;
+padding: 6px 6px 14px 6px;
+}
+
+
+
 }
 
 
 
 
-
-}
