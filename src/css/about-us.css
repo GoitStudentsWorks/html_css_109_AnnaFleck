@@ -39,9 +39,9 @@
 }
 
 .about-us-image-container {
-  display: flex;
-    justify-content: center;
-    align-items: center;
+  display: block;
+  justify-content: center;
+  align-items: center;
 }
 
 .img-watch-about {
