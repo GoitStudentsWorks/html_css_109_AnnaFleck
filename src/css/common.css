@@ -17,6 +17,10 @@ body {
 /* ----------------------------MOBILE MEDIA---------------------------- */
 
 @media screen and (max-width: 374px) {
+  .section {
+    padding-bottom: 60px;
+  }
+
   .container {
     max-width: 374px;
     padding: 0 20px 0px 20px;
