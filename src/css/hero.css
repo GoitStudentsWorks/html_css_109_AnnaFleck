@@ -145,4 +145,8 @@ screen and (min-width: 375px) {
     .hero-paragraph {
         margin-right: 670px;
     }
+
+    .hero-scroll-anchor:hover {
+        color: #3350e9;
+    }
 }
