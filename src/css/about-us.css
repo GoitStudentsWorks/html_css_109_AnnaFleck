@@ -1,12 +1,11 @@
 .about-us {
   display: flex;
-    align-items: flex-start;
-    justify-content: flex-start;
-    flex-direction: row;
-    gap: 40px;
-    padding: 0px 65px;
-    
-      
+  align-items: flex-start;
+  justify-content: flex-start;
+  flex-direction: row;
+  gap: 40px;
+  padding: 0px 65px;
+  margin: auto;
 }
 
 .about-us-title {
@@ -18,7 +17,6 @@
 }
 
 .about-us-content {
- 
 }
 
 .about-us-text {
@@ -29,21 +27,26 @@
 }
 
 .view-btn {
-  border-radius: 16px;
-  width: 160px;
-  height: 48px;
-  background: #3350e9;
-  line-height: 1.28571;
-  text-align: center;
-  color: #fbfbfb;
-  font-weight: 500;
-  font-size: 14px;
+  display: inline-block;
+  margin-top: 15px;
+  padding: 10px 20px;
+  background-color: #007bff;
+  color: #fff;
+  border: none;
+  cursor: pointer;
+  border-radius: 4px;
+  transition: background-color 0.3s ease;
 }
 
 .about-us-image-container {
+  display: flex;
+    justify-content: center;
+    align-items: center;
 }
 
 .img-watch-about {
+  width: 100%;
+  height: auto;
   border-radius: 50px;
   background: rgba(12, 12, 12, 0.2), url('path_to_image');
 }
