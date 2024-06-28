@@ -1,15 +1,10 @@
 @media screen and (max-width: 374px),
 screen and (min-width: 375px) {
-    .hero {
-        padding: 72px 0;
-    }
-
     .hero-container {
         color: #ffffff;
     }
 
     .hero-headline {
-        font-family: "Gilroy", sans-serif;
         font-weight: 600;
         font-size: 40px;
         line-height: 0.95;
@@ -22,7 +17,6 @@ screen and (min-width: 375px) {
     }
 
     .hero-paragraph {
-        font-family: "Gilroy", sans-serif;
         font-weight: 500;
         font-size: 14px;
         line-height: 1.28571;
@@ -60,7 +54,6 @@ screen and (min-width: 375px) {
 
 
     .hero-scroll-anchor {
-        font-family: "Gilroy", sans-serif;
         font-weight: 500;
         font-size: 14px;
         line-height: 1.28571;
