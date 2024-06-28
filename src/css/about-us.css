@@ -2,6 +2,7 @@
   display: flex;
   align-items: flex-start;
   justify-content: flex-start;
+  flex-direction: row;
   gap: 40px;
   padding: 0px 65px;
   margin: auto;
@@ -15,7 +16,8 @@
   color: #0c0c0c;
 }
 
-.about-us-content {}
+.about-us-content {
+}
 
 .about-us-text {
   font-size: 16px;
