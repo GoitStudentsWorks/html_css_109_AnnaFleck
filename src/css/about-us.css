@@ -68,6 +68,8 @@
   background: rgba(12, 12, 12, 0.2), url('path_to_image');
 }
 
-@media screen and (min-width: 768px) {}
+@media screen and (min-width: 768px) {
+}
 
-@media screen and (min-width: 1280px) {}
+@media screen and (min-width: 1280px) {
+}
