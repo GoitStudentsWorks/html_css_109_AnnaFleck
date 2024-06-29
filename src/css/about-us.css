@@ -87,6 +87,8 @@
 
   .about-wrap {
     display: flex;
+      justify-content: center;
+      align-items: center;
   }
 
   .container {
@@ -100,6 +102,7 @@
     letter-spacing: -0.02em;
     color: #0c0c0c;
     padding-bottom: 40px;
+    margin: 0;
   }
 
   .about-us-contant {
