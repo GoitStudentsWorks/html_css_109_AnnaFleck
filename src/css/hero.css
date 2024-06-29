@@ -64,6 +64,11 @@ screen and (min-width: 375px) {
         min-width: 80px;
     }
 
+    .hero-picture {
+        display: flex;
+        flex-shrink: 0;
+    }
+
     .hero-image {
         border-radius: 30px;
         width: 335px;
