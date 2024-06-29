@@ -57,11 +57,10 @@
   height: 446px;
   background: rgba(12, 12, 12, 0.2), url('path_to_image');
   margin-top: 20px;
+  margin-bottom: 60px;
 }
 
 .img-watch-about-mob {
-  min-width: 100px;
-  height: auto;
 }
 
 @media screen and (min-width: 768px) {
