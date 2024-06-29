@@ -2,12 +2,10 @@
 /* Mobile */
 
 
-.container-catalog {
-    width: 335px;
-    margin: 0 auto;
+.container {
     display: flex;
     flex-direction: column;
-    margin: 0 20px;
+   
 }
 
 .catalog-list{
@@ -109,16 +107,7 @@
 
 /*------------------------ Tablet---------------------------- */
 
-@media screen and (min-width: 768px){
-
-
-.container-catalog{
-    width: 704px;
-    margin: 0 32px;
-
- 
-    }
-   
+@media screen and (min-width: 768px){  
 .catalog-list{
     flex-direction: row;
     gap: 32px 16px;
@@ -161,12 +150,7 @@
 
 
 @media screen and (min-width: 1280px){
-    .container-catalog{
-    margin: 0px 65px;
-    width: 1150px;
-    height: 944px;
-    margin: 0 auto;
-}
+ 
 
 .catalog-list{
 width: 1150px;
