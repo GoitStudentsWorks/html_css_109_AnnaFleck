@@ -75,7 +75,7 @@
 .item-price{
     font-weight: 400;
     font-size: 14px;
-    line-height: 1.28571;
+    line-height: 1.29;
     letter-spacing: -0.02em;
     color: rgba(12, 12, 12, 0.5);
     
@@ -91,7 +91,7 @@
 .catalog-button{
     font-weight: 500;
     font-size: 14px;
-    line-height: 1.28571;
+    line-height: 1.29;
     text-align: center;
     color: #fbfbfb;
     border-radius: 16px;
@@ -100,7 +100,7 @@
     width: 160px;
     height: 48px;
     background: #3350e9;
-    margin-top:40px;
+    margin-top: 40px;
 
 }
 .catalog-button:hover {
