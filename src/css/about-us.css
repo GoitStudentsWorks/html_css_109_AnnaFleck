@@ -1,5 +1,13 @@
 .about-us {
   margin-bottom: 100px;
+  display: flex;
+  align-items: flex-start;
+  justify-content: flex-start;
+  flex-direction: row;
+  gap: 40px;
+  padding: 0px 65px;
+  width: 1280px;
+  height: 532px;
 }
 
 .container {
@@ -69,6 +77,9 @@
 }
 
 @media screen and (min-width: 768px) {
+  .about-us-contant {
+    width: 768px;
+  }
 }
 
 @media screen and (min-width: 1280px) {
