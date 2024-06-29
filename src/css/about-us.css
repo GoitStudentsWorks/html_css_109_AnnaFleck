@@ -46,7 +46,6 @@
   border-radius: 16px;
   width: 160px;
   height: 48px;
-
 }
 
 .view-btn:hover,
@@ -67,8 +66,28 @@
 }
 
 @media screen and (min-width: 768px) {
+
+  .about-wrap {
+   
+     
+  }
+
   .about-us-contant {
-    width: 768px;
+    flex-direction: column;
+    display: inline-block;
+    border-radius: 50px;
+    width: 704px;
+    height: 512px;
+    border: 1px solid #000;
+    padding-left: 60px;
+    padding-right: 60px;
+    padding-top: 80px;
+  }
+
+  .about-us-image-container {
+    border-radius: 50px;
+    width: 704px;
+    height: 512px;
   }
 }
 
@@ -87,8 +106,8 @@
 
   .about-wrap {
     display: flex;
-      justify-content: center;
-      align-items: center;
+    justify-content: center;
+    align-items: center;
   }
 
   .container {
