@@ -32,8 +32,9 @@
     border: 1px solid rgba(12, 12, 12, 0.05);
     border-radius: 30px;
     padding: 24px 28px;
-    width: 335px;
+    max-width: 374px;
     background-color: #f3f3f3; 
+
 }
 
 .watch-item-container{
@@ -84,14 +85,6 @@
     
 }
 
-/* .catalog-button-container{
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    width: 375px;
-    margin-bottom: 60px;
-} */
-
 .catalog-button{
     font-weight: 500;
     font-size: 14px;
@@ -110,6 +103,32 @@
 }
 .catalog-button:hover {
     background-color: #1f3cd4;
+}
+
+@media (max-width: 374px) {
+    .catalog-item {
+        max-width: 100%;
+        
+    }
+
+    .watch-item-container {
+        width: 100%;
+        height: auto;
+        
+    }
+
+    .watch-image {
+        width: 100%;
+        height: auto;
+    }
+
+    .catalog-item-text {
+        width: 100%;
+    }
+
+    
+
+   
 }
 
 /*------------------------ Tablet---------------------------- */
