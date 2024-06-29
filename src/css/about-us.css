@@ -2,7 +2,6 @@
 }
 
 .container {
-  gap: 20px;
 }
 
 .about-us-contant {
@@ -29,6 +28,7 @@
   line-height: 18px;
   letter-spacing: -0.02em;
   color: rgba(12, 12, 12, 0.7);
+  margin-bottom: 20px;
 }
 
 .view-btn {
