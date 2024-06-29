@@ -59,6 +59,11 @@
   margin-top: 20px;
 }
 
+.img-watch-about-mob {
+  min-width: 100px;
+  height: auto;
+}
+
 @media screen and (min-width: 768px) {
   .about-us-contant {
     width: 768px;
