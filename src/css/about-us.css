@@ -1,8 +1,10 @@
 .about-us {
+  margin-bottom: 100px;
 }
 
 .container {
   display: flex;
+  gap: 40px;
   flex-direction: row;
   background-color: #fff;
 }
