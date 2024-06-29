@@ -1,17 +1,29 @@
 .about-us {
-  
 }
 
 .about-us-title {
-  font-weight: 600;
   font-size: 48px;
   line-height: 44px;
   letter-spacing: -0.02em;
   color: #0c0c0c;
+  padding-bottom: 40px;
+}
+
+.container-wrap {
+  border-radius: 50px;
+  border-width: 2px;
+  border-style: solid;
+  padding-top: 80px;
+  padding-left: 60px;
+  padding-right: 60px;
+  padding-bottom: 168px;
+  width: 580px;
+  height: 532px;
+  background: #f3f3f3;
+  border-style: none;
 }
 
 .about-us-content {
- 
 }
 
 .about-us-text {
@@ -19,6 +31,7 @@
   line-height: 20px;
   letter-spacing: -0.02em;
   color: rgba(12, 12, 12, 0.7);
+  margin-bottom: 20px;
 }
 
 .view-btn {
@@ -29,8 +42,10 @@
   color: #fff;
   border: none;
   cursor: pointer;
-  border-radius: 4px;
   transition: background-color 0.3s ease;
+  border-radius: 16px;
+  width: 160px;
+  height: 48px;
 }
 
 .view-btn:hover,
@@ -39,11 +54,11 @@
 }
 
 .about-us-image-container {
-border-radius: 50px;
+  border-radius: 50px;
   width: 530px;
   height: 532px;
 }
 
 .img-watch-about {
-  background: rgba(12, 12, 12, 0.2), url("path_to_image");
+  background: rgba(12, 12, 12, 0.2), url('path_to_image');
 }
