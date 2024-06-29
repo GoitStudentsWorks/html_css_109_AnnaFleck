@@ -4,8 +4,7 @@ header {
 
 .header-container {
     margin: 0 auto;
-    position: relative;
-    
+    position: relative;  
 }
 
 
@@ -147,25 +146,26 @@ ul {
 }
 
 .menue {
-    position: fixed;
+    position: absolute;
     top: 0;
     right: 0;
-    width: 100%;
-    height: 100%;
     z-index: 999;
     background-image: linear-gradient(to bottom, rgba(12, 12, 12, 0.92), rgba(12, 12, 12, 0.92)), url(/img/bg-img.jpg);
     background-repeat: no-repeat;
     background-position: center;
     background-size: cover;
-    background-size: cover;
-    z-index: 1000;
-    overflow-y: auto;
     transition: opacity 0.3s linear, visibility 0.3s linear;
     opacity: 0;
     visibility: hidden;
     pointer-events: none;
+    overflow-y: auto;
+    width: 100%;
+    height: 100vh;
+
 
 }
+
+
 
 .menu-close-btn {
     background-color: transparent;
@@ -244,14 +244,68 @@ ul {
 
 }
 
-/* .is-open {
+ /*.is-open {
     opacity: 1;
     visibility: visible;
+    
 } */
 
 
+@media screen and (max-width: 374px) {
+    .header-container {
+        max-width: 374px;
+    }
 
-@media screen and (min-width: 320px) {
+    .header-nav {
+        padding: 20px;
+    }
+
+    .header-nav-list,
+    .header-icons-list {
+        display: none;
+    }
+
+    .header-menu-btn {
+        display: flex;
+        padding: 0;
+        width: 34px;
+        height: 34px;
+    }
+
+    .menue {
+        max-width: 200px;
+        height: 812px;
+
+    }
+
+    .menu-close-btn {
+        margin-top: 20px;
+        margin-right: 20px;
+        width: 34px;
+        height: 34px;
+        padding: 0;
+    }
+
+    .header-icons-list-mob {
+        margin-bottom: 40px;
+        margin-top: 260px;
+    }
+
+    .header-icon-mob {
+        width: 18px;
+        height: 18px;
+    }
+
+    .header-link-icon {
+        width: 18px;
+        height: 18px;
+        display: block;
+    }
+
+    }
+
+
+@media screen and (min-width: 375px) {
 
     .header-container {
         max-width: 375px;
