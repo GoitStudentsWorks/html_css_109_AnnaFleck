@@ -10,6 +10,7 @@ screen and (min-width: 375px) {
         line-height: 0.95;
         letter-spacing: -0.02em;
         color: #0c0c0c;
+        margin-top: 60px;
     }
 
     .hero-headline-span {
