@@ -4,8 +4,7 @@ header {
 
 .header-container {
     margin: 0 auto;
-    position: relative;
-    
+    position: relative;  
 }
 
 
@@ -245,15 +244,68 @@ ul {
 
 }
 
- .is-open {
+ /*.is-open {
     opacity: 1;
     visibility: visible;
     
-} 
+} */
 
 
+@media screen and (max-width: 374px) {
+    .header-container {
+        max-width: 374px;
+    }
 
-@media screen and (min-width: 320px) {
+    .header-nav {
+        padding: 20px;
+    }
+
+    .header-nav-list,
+    .header-icons-list {
+        display: none;
+    }
+
+    .header-menu-btn {
+        display: flex;
+        padding: 0;
+        width: 34px;
+        height: 34px;
+    }
+
+    .menue {
+        max-width: 200px;
+        height: 812px;
+
+    }
+
+    .menu-close-btn {
+        margin-top: 20px;
+        margin-right: 20px;
+        width: 34px;
+        height: 34px;
+        padding: 0;
+    }
+
+    .header-icons-list-mob {
+        margin-bottom: 40px;
+        margin-top: 260px;
+    }
+
+    .header-icon-mob {
+        width: 18px;
+        height: 18px;
+    }
+
+    .header-link-icon {
+        width: 18px;
+        height: 18px;
+        display: block;
+    }
+
+    }
+
+
+@media screen and (min-width: 375px) {
 
     .header-container {
         max-width: 375px;
