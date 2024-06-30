@@ -79,7 +79,6 @@
 .contact-us-btn:hover,
 .contact-us-btn:focus {
   background: #1f3cd4;
-  transition: border-color 300ms linear;
 }
 
 .field-input:focus {
