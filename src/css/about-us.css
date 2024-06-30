@@ -1,3 +1,6 @@
+@media screen and (max-width: 374px) {
+}
+
 @media screen and (min-width: 375px) {
   .container {
     max-width: 375px;
@@ -58,6 +61,43 @@
   background: #1f3cd4;
 }
 
+@media screen and (min-width: 768px) {
+  .about-us-contant {
+    flex-direction: column;
+    display: inline-block;
+    border-radius: 50px;
+    width: 704px;
+    border: 1px solid #000;
+    padding-left: 60px;
+    padding-right: 60px;
+    padding-top: 80px;
+    border: none;
+  }
+
+  .about-us-title {
+    line-height: 44px;
+    letter-spacing: -0.02em;
+    color: #0c0c0c;
+    font-weight: 600;
+    font-size: 48px;
+    margin-bottom: 40px;
+  }
+
+  .about-us-text {
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 20px;
+    letter-spacing: -0.02em;
+    color: rgba(12, 12, 12, 0.7);
+  }
+
+  .about-us-image-container {
+    border-radius: 50px;
+    width: 704px;
+    height: 512px;
+  }
+}
+
 .about-us-image-container {
   border-radius: 30px;
   width: 335px;
@@ -103,6 +143,7 @@
     height: 512px;
   }
 }
+
 
 @media screen and (min-width: 1280px) {
   .about-us {
