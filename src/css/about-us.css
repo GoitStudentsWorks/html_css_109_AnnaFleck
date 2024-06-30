@@ -1,12 +1,3 @@
-.about-us {
-}
-
-.about-wrap {
-}
-
-.container {
-}
-
 .about-us-contant {
   border-radius: 30px;
   width: 335px;
@@ -62,12 +53,10 @@
   margin-bottom: 60px;
 }
 
-.img-watch-about-mob {
-}
+
 
 @media screen and (min-width: 768px) {
-  .about-wrap {
-  }
+ 
 
   .about-us-contant {
     flex-direction: column;
@@ -90,23 +79,20 @@
     margin-bottom: 40px;
   }
 
-.about-us-text {
+  .about-us-text {
     font-weight: 500;
     font-size: 16px;
-    line-height: 20px; 
+    line-height: 20px;
     letter-spacing: -0.02em;
     color: rgba(12, 12, 12, 0.7);
-}
+  }
 
-.about-button {
- 
   
-}
 
   .about-us-image-container {
     border-radius: 50px;
     width: 704px;
-    height: 520px;
+    height: 512px;
   }
 
 }
