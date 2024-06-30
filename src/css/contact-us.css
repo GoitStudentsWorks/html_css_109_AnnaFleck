@@ -101,6 +101,14 @@
     margin-bottom: 40px;
   }
 
+  .contact-us-title {
+    font-weight: 600;
+    font-size: 48px;
+    line-height: 0.91667;
+    letter-spacing: -0.02em;
+    color: #0c0c0c;
+  }
+
   .contact-us-text {
     font-weight: 500;
     font-size: 16px;
