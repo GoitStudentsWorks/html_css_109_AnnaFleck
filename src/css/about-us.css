@@ -78,6 +78,7 @@
     padding-left: 60px;
     padding-right: 60px;
     padding-top: 80px;
+    border: none;
   }
 
   .about-us-title {
@@ -102,6 +103,7 @@
     width: 704px;
     height: 512px;
   }
+
 }
 
 @media screen and (min-width: 1280px) {
