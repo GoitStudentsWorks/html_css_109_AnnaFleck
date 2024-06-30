@@ -1,4 +1,3 @@
-
 @media screen and (max-width: 374px) {
   .about-us-image-container {
     overflow: hidden;
@@ -15,12 +14,6 @@
 }
 
 @media screen and (min-width: 375px) {
-.img-about-us {
-  width: 335px;
-  height: 446px;
-  object-fit: cover;
-}
-
   .container {
     max-width: 375px;
     margin-right: auto;
@@ -36,13 +29,22 @@
   .about-us-image-container {
     overflow: hidden;
   }
+
+  .img-about-us {
+    width: 335px;
+    height: 446px;
+    object-fit: cover;
+  }
 }
 
-.about-us {}
+.about-us {
+}
 
-.about-wrap {}
+.about-wrap {
+}
 
-.container {}
+.container {
+}
 
 .about-us-contant {
   border-radius: 30px;
@@ -100,11 +102,6 @@
 }
 
 @media screen and (min-width: 768px) {
-  .img-about-us {
-    width: 704px;
-    height: 512px;
-  }
-
   .about-us-contant {
     flex-direction: column;
     display: inline-block;
@@ -135,12 +132,18 @@
   }
 
   .about-us-image-container {
+    width: 704px;
+      height: 512px;
     display: flex;
-      align-items: flex-end;
-      justify-content: flex-start;
-      flex-direction: column;
+    align-items: flex-end;
+    justify-content: flex-start;
+    flex-direction: column;
   }
 
+  .img-about-us {
+    width: 704px;
+    height: 512px;
+  }
 }
 
 @media screen and (min-width: 1280px) {
@@ -217,13 +220,14 @@
 
   .about-us-image-container {
     border-radius: 50px;
-    width: 530px;
+    width: 540px;
     height: 532px;
     margin-top: 0;
     margin-bottom: 0;
   }
 
-  .img-watch-about {
-    background: rgba(12, 12, 12, 0.2), url('path_to_image');
+  .img-about-us {
+    width: 540px;
+    height: 532px;
   }
 }
