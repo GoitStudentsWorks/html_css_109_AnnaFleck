@@ -14,14 +14,6 @@
 }
 
 @media screen and (min-width: 375px) {
-  .container {
-    max-width: 375px;
-    margin-right: auto;
-    margin-left: auto;
-    padding-left: 20px;
-    padding-right: 20px;
-  }
-
   .about-us-image-container {
     overflow: hidden;
   }
