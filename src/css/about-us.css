@@ -102,14 +102,7 @@
 }
 
 @media screen and (min-width: 768px) and (max-width: 1279px) {
-  .about-wrap {
-    display: flex;
-      flex-direction: column;
-      align-items: center;
-      justify-content: center;
-      padding: 40px;
-      width: 100%;
-  }
+ 
 
     .about-wrap {
       display: flex;
