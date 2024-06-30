@@ -101,11 +101,24 @@
   margin-bottom: 60px;
 }
 
-@media screen and (min-width: 768px) {
-  .about-us {
-  box-sizing: border-box;
-    position: relative;
+@media screen and (min-width: 768px) and (max-width: 1279px) {
+  .about-wrap {
+    display: flex;
+      flex-direction: column;
+      align-items: center;
+      justify-content: center;
+      padding: 40px;
+      width: 100%;
   }
+
+    .about-wrap {
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      justify-content: center;
+      width: 100%;
+      max-width: 768px;
+    }
 
   .about-us-contant {
     flex-direction: column;
