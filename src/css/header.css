@@ -473,3 +473,9 @@ ul {
         display: none;
     }
 }
+
+@media screen and (min-resolution: 2dppx; ) {
+    .menue {
+        background-image: linear-gradient(to bottom, rgba(12, 12, 12, 0.92), rgba(12, 12, 12, 0.92)), url(/img/bg-img-2x.jpg);
+    }
+}
