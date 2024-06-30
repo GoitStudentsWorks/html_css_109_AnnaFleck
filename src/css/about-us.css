@@ -1,3 +1,17 @@
+@media screen and (min-width: 375px) {
+  .container {
+    max-width: 375px;
+    margin-right: auto;
+    margin-left: auto;
+    padding-left: 20px;
+    padding-right: 20px;
+  }
+
+  .section {
+    padding-bottom: 60px;
+  }
+}
+
 .about-us-contant {
   border-radius: 30px;
   width: 335px;
@@ -53,11 +67,7 @@
   margin-bottom: 60px;
 }
 
-
-
 @media screen and (min-width: 768px) {
- 
-  
   .about-us-contant {
     flex-direction: column;
     display: inline-block;
@@ -92,7 +102,6 @@
     width: 704px;
     height: 512px;
   }
-
 }
 
 @media screen and (min-width: 1280px) {
