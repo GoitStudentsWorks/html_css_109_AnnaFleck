@@ -82,13 +82,15 @@
     padding-top: 80px;
   }
 
+  .about-us-text {
+    
+  }
+
   .about-us-image-container {
     border-radius: 50px;
     width: 704px;
     height: 512px;
   }
-
-
 }
 
 @media screen and (min-width: 1280px) {
@@ -170,6 +172,8 @@
     border-radius: 50px;
     width: 530px;
     height: 532px;
+    margin-top: 0;
+    margin-bottom: 0;
   }
 
   .img-watch-about {
