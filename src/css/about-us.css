@@ -3,9 +3,24 @@
   .about-us-image-container {
     overflow: hidden;
   }
+
+  .about-us-contant {
+    min-width: 335px;
+  }
+
+  .img-about-us {
+    object-fit: cover;
+    height: 446px;
+  }
 }
 
 @media screen and (min-width: 375px) {
+.img-about-us {
+  width: 335px;
+  height: 446px;
+  object-fit: cover;
+}
+
   .container {
     max-width: 375px;
     margin-right: auto;
@@ -85,7 +100,10 @@
 }
 
 @media screen and (min-width: 768px) {
-  .about-wrap {}
+  .img-about-us {
+    width: 704px;
+    height: 512px;
+  }
 
   .about-us-contant {
     flex-direction: column;
