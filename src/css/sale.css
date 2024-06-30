@@ -1,5 +1,36 @@
+@media screen and (max-width:374px) {
+    .footer-container {
+        max-width: 374px;
+        padding: 0 20px 0px 20px;
+        margin: 0 auto;
+        background-color: #fff;
+    }
+}
+
+@media screen and (min-width:375px) {
+    .sale-container {
+        width: 375px;
+        padding: 0 20px 20px 20px;
+        margin: 0 auto;
+        background-color: #fff;
+    }
+}
+
+@media screen and (min-width:768px) {
+    .sale-container {
+        width: 768px;
+        padding: 0 32px 32px 32px;
+    }}
+
+
+@media screen and (min-width:1280px) {
+    .sale-container {
+        width: 1280px;
+        padding: 0 32px 32px 32px;
+    }}
+
+
 .sale-name{
-    font-family: "Gilroy", sans-serif;
         font-weight: 600;
         font-size: 32px;
         line-height: 100%;
@@ -61,7 +92,6 @@
 }
 
 .item-name{
-    font-family: "Gilroy", sans-serif;
         font-weight: 600;
         font-size: 24px;
         line-height: 117%;
@@ -71,8 +101,6 @@
 }
 
 .item-tag{
-    font-family: "Gilroy", sans-serif;
-        font-weight: 400;
         font-size: 14px;
         line-height: 129%;
         letter-spacing: -0.02em;
@@ -90,7 +118,6 @@
 }
 
 .item-price{
-    font-family: "Gilroy", sans-serif;
         font-weight: 600;
         font-size: 16px;
         line-height: 125%;
@@ -107,8 +134,6 @@
 }
 
 .item-old-price{
-    font-family: "Gilroy", sans-serif;
-        font-weight: 400;
         font-size: 12px;
         line-height: 117%;
         letter-spacing: -0.02em;
@@ -117,7 +142,6 @@
 }
 
 .sale-about-clock{
-font-family: "Gilroy", sans-serif;
     font-weight: 500;
     font-size: 14px;
     line-height: 129%;
@@ -138,7 +162,6 @@ font-family: "Gilroy", sans-serif;
 }
 
 .nomenkl-item{
-    font-family: "Gilroy", sans-serif;
     font-weight: 500;
     font-size: 12px;
     line-height: 133%;
