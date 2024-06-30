@@ -102,6 +102,11 @@
 }
 
 @media screen and (min-width: 768px) {
+  .about-us {
+  box-sizing: border-box;
+    position: relative;
+  }
+
   .about-us-contant {
     flex-direction: column;
     display: inline-block;
@@ -133,7 +138,7 @@
 
   .about-us-image-container {
     width: 704px;
-      height: 512px;
+    height: 512px;
     display: flex;
     align-items: flex-end;
     justify-content: flex-start;
