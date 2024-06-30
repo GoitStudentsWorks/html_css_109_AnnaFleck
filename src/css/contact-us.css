@@ -112,6 +112,7 @@
   .field-input {
     font-size: 16px;
     line-height: 1.25;
+    height: 52px;
   }
 
   .contact-us-textarea {
@@ -136,17 +137,16 @@
 @media screen and (min-width: 1280px) {
   .contact-us-container {
     margin-bottom: 0;
+    margin-left: 33px;
   }
 
   .contact-us-title {
-    margin-left: 65px;
+    margin-bottom: 40px;
   }
 
   .contact-us-pc-container {
     display: flex;
     gap: 40px;
-    padding-left: 33px;
-    padding-right: 33px;
   }
 
   .contact-us-wrap {
@@ -161,5 +161,9 @@
     width: 530px;
     height: 556px;
     border-radius: 50px;
+  }
+
+  .contact-us-textarea {
+    height: 90px;
   }
 }
