@@ -63,8 +63,7 @@
 
 .view-btn {
   display: inline-block;
-  margin-top: 15px;
-  margin-bottom: 40px;
+  margin-top: 20px;
   padding: 10px 20px;
   background-color: #3350e9;
   color: #fff;
@@ -128,7 +127,7 @@
   }
 
   .view-btn {
-    margin-bottom: 80px;
+    margin-bottom: 40px;
     margin-top: 40px;
   }
 
