@@ -242,13 +242,12 @@ ul {
 
 }
 
- /*.is-open {
+ .is-open {
      opacity: 1;
      visibility: visible;
      pointer-events: auto;
      
-
- } */
+ } 
 
 
 @media screen and (max-width: 375px) {
