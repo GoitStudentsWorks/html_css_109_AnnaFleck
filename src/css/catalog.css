@@ -1,14 +1,9 @@
 
 /* Mobile */
 
-
-.container {
+.catalog-container{
     display: flex;
     flex-direction: column;
-   
-}
-.catalog-container{
-    margin-bottom: 60px;
 }
 .catalog-list{
 
@@ -32,7 +27,7 @@
     border: 1px solid rgba(12, 12, 12, 0.05);
     border-radius: 30px;
     padding: 24px 28px;
-    max-width: 374px;
+    width: 335px;
     background-color: #f3f3f3; 
 
 }
@@ -76,7 +71,7 @@
     overflow: hidden;
 }
 
-.item-price{
+.catalog-item-price{
     font-weight: 400;
     font-size: 14px;
     line-height: 1.29;
@@ -103,6 +98,7 @@
 }
 .catalog-button:hover {
     background-color: #1f3cd4;
+    transition: opacity 0.3s linear;
 }
 
 @media (max-width: 374px) {
@@ -134,12 +130,11 @@
 /*------------------------ Tablet---------------------------- */
 
 @media screen and (min-width: 768px){  
-.catalog-container{
-    margin-bottom: 80px;
-}
+
 
 .catalog-title{
     margin-bottom: 40px;
+    font-size: 48px;
  }
 
     .catalog-list{
@@ -186,12 +181,11 @@
 
 
 @media screen and (min-width: 1280px){
-.catalog-container{
-    margin-bottom: 100px;
-}
+
 
 .catalog-title{
     margin-bottom: 40px;
+    font-size: 48px;
 }
 
 .catalog-list{

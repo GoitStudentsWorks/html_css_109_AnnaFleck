@@ -1,0 +1,245 @@
+
+.sale-name{
+        font-weight: 600;
+        font-size: 32px;
+        line-height: 100%;
+        letter-spacing: -0.02em;
+        color: #0c0c0c;
+        margin-bottom: 24px;
+}
+
+.sale-block{
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+}
+
+.sale-litle{
+}
+
+.litle-block-item{
+    border: 1px solid rgba(12, 12, 12, 0.05);
+        border-radius: 16px;
+        width: 80px;
+        height: 80px;
+        background-color: #f3f3f3;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+}
+
+.litle-block{
+    display: flex;
+    gap: 5px;
+}
+
+.sale-big{
+    border: 1px solid rgba(12, 12, 12, 0.05);
+        border-radius: 50px;
+        width: 335px;
+        height: 385px;
+        background-color: #f3f3f3;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+}
+
+.big-img{
+    border-color: transparent;
+}
+
+.sale-info{
+    border-radius: 30px;
+        width: 335px;
+        height: 561px;
+        background-color: #3350e9;
+        padding: 48px 28px;
+}
+
+.item-name{
+        font-weight: 600;
+        font-size: 24px;
+        line-height: 117%;
+        letter-spacing: -0.02em;
+        color: #fbfbfb;
+        margin-bottom: 10px;
+}
+
+.item-tag{
+        font-size: 14px;
+        line-height: 129%;
+        letter-spacing: -0.02em;
+        color: rgba(251, 251, 251, 0.5);
+        margin-bottom: 20px;
+}
+
+.item-info-price{
+    margin-bottom: 28px;
+}
+
+.sale-price{
+    display: flex;
+    align-items: center;
+}
+
+.item-price{
+        font-weight: 600;
+        font-size: 16px;
+        line-height: 125%;
+        letter-spacing: -0.02em;
+        color: #fbfbfb;
+        border-radius: 8px;
+        width: 68px;
+        height: 32px;
+        background: rgba(251, 251, 251, 0.1);
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        margin-right: 9px;
+}
+
+.item-old-price{
+        font-size: 12px;
+        line-height: 117%;
+        letter-spacing: -0.02em;
+        text-decoration: line-through;
+        color: rgba(251, 251, 251, 0.5);
+}
+
+.sale-about-clock{
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 129%;
+    letter-spacing: -0.02em;
+    color: rgba(251, 251, 251, 0.7);
+    margin-bottom: 28px;
+}
+
+.sale-clock-nomenkl{
+
+}
+
+.clock-nomenkl-item{
+    display: flex;
+    flex-wrap: wrap;
+    gap: 8px;
+}
+
+.nomenkl-item{
+    font-weight: 500;
+    font-size: 12px;
+    line-height: 133%;
+    color: #fbfbfb;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: 1px solid rgba(251, 251, 251, 0.2);
+    border-radius: 8px;
+    padding: 8px 12px;
+}
+
+
+/* ----------------------------TABLET MEDIA----------------------------*/
+
+@media screen and (min-width: 768px) {
+    .sale-name {
+        font-size: 48px;
+        line-height: 92%;
+        margin-bottom: 40px;
+    }
+
+.litle-block {
+    width: 132px;
+    flex-wrap: wrap;
+    gap: 10px;
+}
+
+.litle-block-item {
+    border-radius: 20px;
+    width: 132px;
+    height: 132px;
+}
+
+.sale-big {
+    width: 552px;
+    height: 558px;
+}
+.litle-img{
+width: 96px;
+height: 100px;
+}
+
+.big-img {
+width: 328px;
+height: 398px;}
+
+.sale-info {
+    border-radius: 50px;
+    width: 704px;
+    height: 518px;
+    margin-top: 20px;
+    padding: 60px 60px;
+}
+
+.item-name {
+    font-size: 32px;
+    line-height: 112%;
+    margin-right: 148px;
+    }
+
+.item-price {
+    font-size: 20px;
+    line-height: 100%;
+    width: 78px;
+}
+
+.item-info-price {
+    margin-bottom: 30px;
+}
+
+.sale-about-clock {
+    font-size: 16px;
+    line-height: 125%;
+    margin-bottom: 40px;
+}
+
+.nomenkl-item {
+    font-size: 14px;
+    line-height: 129%;
+    padding: 8px 12px;
+}
+
+.clock-nomenkl-item {
+margin-right: 186px;
+}
+
+}
+
+/*----------------------------TABLET MEDIA_---------------------------- */
+
+/* ----------------------------_DESKTOP MEDIA---------------------------- */
+
+@media screen and (min-width: 1280px) {
+.sale-big {
+        width: 428px;
+    }
+
+.sale-info {
+    border-radius: 50px;
+    width: 530px;
+    height: 558px;
+    margin-top: 0px;
+    margin-left: 20px;
+}
+
+.item-name {
+margin-right: 21px;
+}
+
+.clock-nomenkl-item {
+    margin-right: 40px;
+}
+
+}
+
+/* ----------------------------DESKTOP MEDIA---------------------------- */
