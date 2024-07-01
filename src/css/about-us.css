@@ -11,6 +11,10 @@
     object-fit: cover;
     height: 446px;
   }
+
+  .view-btn {
+    margin-bottom: 40px;
+  }
 }
 
 @media screen and (min-width: 375px) {
@@ -60,6 +64,7 @@
 .view-btn {
   display: inline-block;
   margin-top: 15px;
+  margin-bottom: 40px;
   padding: 10px 20px;
   background-color: #3350e9;
   color: #fff;
