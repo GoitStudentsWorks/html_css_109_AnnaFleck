@@ -11,6 +11,11 @@
     object-fit: cover;
     height: 446px;
   }
+
+ .about-button {
+   display: flex;
+   justify-content: center;
+ }
 }
 
 @media screen and (min-width: 375px) {
