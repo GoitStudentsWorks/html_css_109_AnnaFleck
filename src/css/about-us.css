@@ -185,20 +185,6 @@
     margin-bottom: 20px;
   }
 
-  .view-btn {
-    display: inline-block;
-    margin-top: 15px;
-    padding: 10px 20px;
-    background-color: #3350e9;
-    color: #fff;
-    border: none;
-    cursor: pointer;
-    transition: background-color 0.3s ease;
-    border-radius: 16px;
-    width: 160px;
-    height: 48px;
-  }
-
   .view-btn:hover,
   .view-btn:focus {
     background: #1f3cd4;
