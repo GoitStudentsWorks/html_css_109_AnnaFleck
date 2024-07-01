@@ -154,6 +154,7 @@
     display: flex;
     gap: 40px;
     justify-content: space-between;
+
   }
 
   .contact-us-wrap {
@@ -162,6 +163,10 @@
     height: 556px;
     padding-left: 60px;
     padding-right: 60px;
+    margin-left: 33px;
+  }
+
+  .field-input {
   }
 
   .field-input {
@@ -171,6 +176,11 @@
     width: 530px;
     height: 556px;
     border-radius: 50px;
+    margin-right: 33px;
+  }
+
+  .contact-us-textarea {
+    height: 90px;
   }
 
   .contact-us-textarea {
