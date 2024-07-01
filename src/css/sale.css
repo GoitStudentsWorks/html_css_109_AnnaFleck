@@ -142,7 +142,12 @@
 @media screen and (max-width: 374px) {
     .litle-block {
         flex-wrap: wrap;
-    }}
+    }
+.sale-info {
+    height: 100%;
+}
+
+}
 /* ----------------------------UNTIL MOB MEDIA----------------------------*/
 
 /* ----------------------------TABLET MEDIA----------------------------*/
