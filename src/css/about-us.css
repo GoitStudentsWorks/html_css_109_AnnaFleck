@@ -24,6 +24,10 @@
     height: 446px;
     object-fit: cover;
   }
+
+  .about-button{
+    margin-bottom: 40px;
+  }
 }
 
 .about-us-contant {
