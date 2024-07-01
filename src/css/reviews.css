@@ -4,7 +4,7 @@
     }
 
     .reviews-cards {
-        margin-bottom: 60px;
+        
     }
 
     .reviews-title {
@@ -65,7 +65,7 @@
     .reviews {}
 
     .reviews-cards {
-        margin-bottom: 60px;
+        
     }
 
     .reviews-title {
@@ -132,7 +132,7 @@
 
 @media screen and (min-width:768px) {
     .reviews-cards {
-        margin-bottom: 80px;
+        
     }
     .reviews-title {
         font-size: 48px;
@@ -162,7 +162,7 @@
 }
 @media screen and (min-width:1280px) {
     .reviews-cards {
-        margin-bottom: 100px;
+        
     }
 
     .reviews-title {
