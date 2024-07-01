@@ -143,17 +143,18 @@
 
 @media screen and (min-width: 1280px) {
   .contact-us-container {
-    margin-bottom: 28px;
+    margin-bottom: 60px;
   }
 
   .contact-us-title {
     margin-bottom: 40px;
-    margin-left: 33px;
   }
 
   .contact-us-pc-container {
     display: flex;
     gap: 40px;
+    justify-content: space-between;
+
   }
 
   .contact-us-wrap {
@@ -168,11 +169,18 @@
   .field-input {
   }
 
+  .field-input {
+  }
+
   .contact-us-img {
     width: 530px;
     height: 556px;
     border-radius: 50px;
     margin-right: 33px;
+  }
+
+  .contact-us-textarea {
+    height: 90px;
   }
 
   .contact-us-textarea {
