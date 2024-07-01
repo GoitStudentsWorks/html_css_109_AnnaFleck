@@ -23,12 +23,16 @@
     height: 446px;
     object-fit: cover;
   }
+
+  .about-button{
+    margin-bottom: 40px;
+  }
 }
 
 .about-us-contant {
   border-radius: 30px;
   width: 100%;
-  height: 446px;
+  height: 100%;
   background: #f3f3f3;
   display: inline-block;
   padding-left: 20px;
@@ -118,6 +122,11 @@
     color: rgba(12, 12, 12, 0.7);
   }
 
+  .view-btn {
+    margin-bottom: 80px;
+    margin-top: 40px;
+  }
+
   .about-us-image-container {
     width: 704px;
     height: 512px;
@@ -177,20 +186,6 @@
     letter-spacing: -0.02em;
     color: rgba(12, 12, 12, 0.7);
     margin-bottom: 20px;
-  }
-
-  .view-btn {
-    display: inline-block;
-    margin-top: 15px;
-    padding: 10px 20px;
-    background-color: #3350e9;
-    color: #fff;
-    border: none;
-    cursor: pointer;
-    transition: background-color 0.3s ease;
-    border-radius: 16px;
-    width: 160px;
-    height: 48px;
   }
 
   .view-btn:hover,
