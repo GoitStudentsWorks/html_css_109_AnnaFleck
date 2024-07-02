@@ -29,6 +29,19 @@
   openMenuBtn.addEventListener('click', toggleMenu);
   closeMenuBtn.addEventListener('click', toggleMenu);
 
+  // Закриття меню при натисканні на сторінку
+  document.addEventListener('click', event => {
+    const isMenuOpen =
+      openMenuBtn.getAttribute('aria-expanded') === 'true' || false;
+    if (
+      isMenuOpen &&
+      !mobileMenu.contains(event.target) &&
+      !openMenuBtn.contains(event.target)
+    ) {
+      toggleMenu();
+    }
+  });
+
   // Close the mobile menu on wider screens if the device orientation changes
   window.matchMedia('(min-width: 768px)').addEventListener('change', e => {
     if (!e.matches) return;
