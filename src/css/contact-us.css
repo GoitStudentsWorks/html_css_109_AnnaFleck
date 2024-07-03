@@ -44,6 +44,7 @@
   background: #f3f3f3;
   margin-bottom: 18px;
   transition: border-color 300ms linear;
+  outline: none;
 }
 
 .contact-us-textarea {
@@ -60,6 +61,7 @@
   margin-bottom: 28px;
   resize: none;
   transition: border-color 300ms linear;
+  outline: none;
 }
 
 .contact-us-btn {
@@ -74,6 +76,8 @@
   text-align: center;
   color: #fbfbfb;
   border: none;
+  transition: background-color 0.3s linear;
+  outline: none;
 }
 
 .contact-us-btn:hover,
