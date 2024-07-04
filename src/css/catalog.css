@@ -96,9 +96,12 @@
     margin-top: 40px;
 
 }
-.catalog-button:hover {
+.catalog-button:hover,
+.catalog-button:focus {
     background-color: #1f3cd4;
     transition: opacity 0.3s linear;
+    outline: none;
+
 }
 
 @media (max-width: 374px) {
