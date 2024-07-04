@@ -3,7 +3,7 @@
     overflow: hidden;
   }
 
-  .about-us-contant { 
+  .about-us-contant {
     max-width: 335px;
   }
 
@@ -28,7 +28,7 @@
     object-fit: cover;
   }
 
-  .about-button{
+  .about-button {
     margin-bottom: 40px;
   }
 }
@@ -79,6 +79,7 @@
 .view-btn:hover,
 .view-btn:focus {
   background: #1f3cd4;
+  outline: none;
 }
 
 .about-us-image-container {
@@ -138,6 +139,7 @@
     align-items: flex-end;
     justify-content: flex-start;
     flex-direction: column;
+    margin-top: 40px;
   }
 
   .img-about-us {
