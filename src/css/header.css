@@ -1,5 +1,9 @@
 header {
   border-bottom: 1px solid #0c0c0c1a;
+  background-color: inherit;
+  position: sticky;
+  z-index: 99;
+  top: 0;
 }
 
 .header-container {
@@ -149,6 +153,9 @@ ul {
   width: 100%;
   height: 100%;
   overflow-y: auto;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
 }
 
 .menu-close-btn {
@@ -167,7 +174,7 @@ ul {
   flex-direction: column;
   align-items: center;
   gap: 24px;
-  margin-top: 186px;
+  /*margin-top: 186px;*/
   margin-bottom: 0;
   padding: 0;
   color: #fbfbfb;
@@ -273,7 +280,7 @@ ul {
 
   .header-icons-list-mob {
     margin-bottom: 40px;
-    margin-top: 260px;
+    /*margin-top: 260px;*/
   }
 
   .header-icon-mob {
@@ -341,7 +348,7 @@ ul {
 
   .header-icons-list-mob {
     margin-bottom: 40px;
-    margin-top: 260px;
+    /*margin-top: 260px;*/
   }
 
   .header-icon-mob {
@@ -402,17 +409,21 @@ ul {
 
   .header-icons-list-mob {
     margin-bottom: 50px;
-    margin-top: 350px;
+    /*margin-top: 350px;*/
   }
 
   .header-nav-list-mob {
-    margin-top: 244px;
+    /*margin-top: 244px;*/
     gap: 32px;
   }
 
   .header-icon-mob {
     width: 20px;
     height: 20px;
+  }
+
+  .header-icon-item-mob {
+    padding: 8.2px;
   }
 }
 
